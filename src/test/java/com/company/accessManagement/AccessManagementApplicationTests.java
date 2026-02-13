@@ -8,6 +8,7 @@ class AccessManagementApplicationTests {
 
 	@Test
 	void contextLoads() {
+		temp a=new temp();
 	}
 
 }

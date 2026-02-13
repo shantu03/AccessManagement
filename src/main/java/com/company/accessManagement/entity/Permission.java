@@ -15,8 +15,12 @@ public class Permission {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+
     @Enumerated(EnumType.STRING)
     private PermissionName name;
+
+
+
 
     public Integer getId() {
         return id;

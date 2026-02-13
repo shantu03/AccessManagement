@@ -3,6 +3,10 @@ package com.company.accessManagement.dto;
 public class CreateUser {
 
 
+    private String name;
+    private Integer role_id;
+    private Integer id;
+
     public String getName() {
         return name;
     }
@@ -19,10 +23,6 @@ public class CreateUser {
         this.role_id = role_id;
     }
 
-    private String name;
-
-    private Integer id;
-
     public Integer getId() {
         return id;
     }
@@ -31,6 +31,6 @@ public class CreateUser {
         this.id = id;
     }
 
-    private Integer role_id;
+
 
 }

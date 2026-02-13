@@ -1,5 +1,6 @@
 package com.company.accessManagement.entity;
 
+import com.company.accessManagement.audit.BaseAuditEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class UserEntity {
+public class UserEntity extends BaseAuditEntity {
 
     @Id
     private Integer id;
